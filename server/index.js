@@ -23,4 +23,4 @@ wss.on("connection", (ws) => {
   ws.on("close", () => console.log("❌ Client disconnected"));
 });
 
-startTikTokHandler(wss, "the.null.object");
+startTikTokHandler(wss, "soulparty_");
